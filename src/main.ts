@@ -95,8 +95,6 @@ function startGame(config: LevelConfig, difficulty: 'easy' | 'medium' | 'hard') 
 
   renderer.setEngine(engine);
 
-  let timeLeft = config.timeLimit || 0;
-
   // UI Structure
   app.innerHTML = `
       <div class="header-bar">

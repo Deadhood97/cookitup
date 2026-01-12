@@ -50,7 +50,7 @@ export function renderWorldMap(progress: PlayerProgress): string {
             <div class="world-section theme-${theme}">
                 <h2 class="world-title">${worldNames[worldId]}</h2>
                 <div class="level-grid">
-                    ${levels.map((level, index) => {
+                    ${levels.map((level) => {
             const data = progress.levels[level.id];
             const stars = data?.stars || 0;
             // Always clickable, but maybe show visuals for completed

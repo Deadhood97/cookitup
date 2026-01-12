@@ -169,7 +169,8 @@ export class GameEngine {
             this.spawnTile();
             this.state.moves++;
             this.checkWinCondition();
-            if (this.state.status !== 'won') {
+            // Re-read status to avoid narrowing issues
+            if ((this.state.status as string) !== 'won') {
                 this.checkLossCondition();
             }
         }

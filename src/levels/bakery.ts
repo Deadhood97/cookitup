@@ -1,5 +1,5 @@
 import { type LevelConfig } from '../engine/types';
-import { ITEMS, STATES } from '../engine/constants';
+import { ITEMS } from '../engine/constants';
 import { BASIC_REACTIONS, TILE_PROPS } from '../engine/config';
 
 export const BakeryLevel: LevelConfig = {

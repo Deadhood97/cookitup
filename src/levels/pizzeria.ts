@@ -1,4 +1,4 @@
-import { type LevelConfig, type TileType } from '../engine/types';
+import { type LevelConfig } from '../engine/types';
 import { ITEMS, STATES } from '../engine/constants';
 
 export const PizzeriaLevel: LevelConfig = {
